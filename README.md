@@ -1,2 +1,2 @@
-# heARTshop
+# heARTshop Application
 Integrated Systems Project
