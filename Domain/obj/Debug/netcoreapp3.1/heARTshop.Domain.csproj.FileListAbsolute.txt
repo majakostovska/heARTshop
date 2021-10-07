@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\heARTshop\heARTshop.Domain\bin\Debug\netcoreapp3.1\heARTshop.Domain.deps.json
+C:\Users\User\source\repos\heARTshop\heARTshop.Domain\bin\Debug\netcoreapp3.1\heARTshop.Domain.dll
+C:\Users\User\source\repos\heARTshop\heARTshop.Domain\bin\Debug\netcoreapp3.1\heARTshop.Domain.pdb
+C:\Users\User\source\repos\heARTshop\heARTshop.Domain\obj\Debug\netcoreapp3.1\heARTshop.Domain.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\heARTshop\heARTshop.Domain\obj\Debug\netcoreapp3.1\heARTshop.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\heARTshop\heARTshop.Domain\obj\Debug\netcoreapp3.1\heARTshop.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\heARTshop\heARTshop.Domain\obj\Debug\netcoreapp3.1\heARTshop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\heARTshop\heARTshop.Domain\obj\Debug\netcoreapp3.1\heARTshop.Domain.dll
+C:\Users\User\source\repos\heARTshop\heARTshop.Domain\obj\Debug\netcoreapp3.1\heARTshop.Domain.pdb
