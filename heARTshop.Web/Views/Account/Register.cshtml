@@ -1,0 +1,58 @@
+﻿@model heARTshop.Domain.Identity.UserRegistrationDTO
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container" class="bg-image" style="background-image: src('../back1.jpg'); height: 100vh;" >
+    <br />
+    <br />
+    <h1 style="font-weight: 200; font-size: 80px; text-transform: uppercase; color: papayawhip; text-align: center; ">Register</h1>
+    <br />
+    <br />
+    <div>
+        <img src="~/logo.png" style="align-items: center; position: absolute; transform: translateX(292px); width: 25%; border-color: saddlebrown; opacity: 0.5; border-radius: 59px;">
+
+    </div>
+    @Html.ValidationSummary()
+    <form asp-action="Register" asp-controller="Account" method="post" style=" transform: translateX(1%); align-items: center;">
+
+        <div class="registerdiv" style="text-align: -webkit-center; font-family: cursive;">
+
+
+            <div class="form-group col-sm-12">
+                <label asp-for="@Model.Email" class="col-lg-3 control-label" style="font-family: cursive; text-transform: uppercase;color: navajowhite;"></label>
+                <br>
+                <div class="col-lg-9">
+                    @Html.TextBoxFor(m => m.Email, new { Style = "font-family:cursive;width: 255px; text-transform: uppercase;height: 40px; background: transparent; border: 1px solid rgba(255, 255, 255, 0.6); border - radius: 2px; color: #fff; font-family: 'Exo', sans-serif; font-size: 16px; font-weight: 400; padding: 4px; " })
+                    @Html.ValidationMessageFor(m => m.Email)
+                </div>
+            </div>
+
+
+            <div class="form-group col-sm-12">
+                <label asp-for="@Model.Password" class="col-lg-3 control-label" style="color: navajowhite; text-transform: uppercase;"></label>
+                <br>
+                <div class="col-lg-9">
+                    @Html.PasswordFor(m => m.Password, new { Style = "font-family:cursive;width: 255px;text-transform: uppercase; height: 40px; background: transparent; border: 1px solid rgba(255, 255, 255, 0.6); border - radius: 2px; color: #fff; font-family: 'Exo', sans-serif; font-size: 16px; font-weight: 400; padding: 4px; " })
+                    @Html.ValidationMessageFor(m => m.Password)
+                </div>
+            </div>
+
+            <div class="form-group col-sm-12">
+                <label asp-for="@Model.ConfirmPassword" class="col-lg-3 control-label" style="color: navajowhite; text-transform: uppercase;"></label>
+                <br>
+                <div class="col-lg-9">
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { Style = "font-family:cursive;width: 255px;text-transform: uppercase; height: 40px; background: transparent; border: 1px solid rgba(255, 255, 255, 0.6); border - radius: 2px; color: #fff; font-family: 'Exo', sans-serif; font-size: 16px; font-weight: 400; padding: 4px; " })
+                    @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-12 btn-submit">
+                    <button type="submit" class="btn btn-success" style="width: 260px; height: 35px; background: #fff; border: 1px solid #fff; cursor: pointer; border-radius: 2px; color: #a18d6c; font-family: 'Exo', sans-serif; font-size: 16px; font-weight: 400; padding: 6px; margin-top: 10px;">Sign Up</button>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</div>  
